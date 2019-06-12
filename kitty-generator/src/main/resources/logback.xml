@@ -26,7 +26,7 @@
     <root>
         <!-- 定义了ERROR和INFO级别的日志;分别在FILE文件和控制台输出 -->
         <level value="INFO" />
-        <!--<appender-ref ref="baselog" />-->
+        <appender-ref ref="baselog" />
         <appender-ref ref="console" />
     </root>
     <logger name="com.louis.kitty.generator" level="INFO">
