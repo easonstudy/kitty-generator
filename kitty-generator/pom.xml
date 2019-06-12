@@ -13,7 +13,7 @@
 	<groupId>com.louis</groupId>
 	<artifactId>kitty-generator</artifactId>
 	<version>${project.version}</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	
 	<name>kitty-generator</name>
 	<description>kitty-generator</description>
