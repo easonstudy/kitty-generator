@@ -1,5 +1,8 @@
 <template>
-  <div class="container" style="width:99%;margin-top:-25px;">
+  <!--  kitty 样式: class="container" style="width:99%;margin-top:-25px;"
+        首次需更新权限 sys:XXX:add  sys:XXX:delete sys:XXX:edit  sys:XXX:view 等字符串
+  -->
+  <div class="page-container" >
 	<!--工具栏-->
 	<div class="toolbar" style="float:left;padding-top:10px;padding-left:15px;">
 		<el-form :inline="true" :model="filters" :size="size">
@@ -22,10 +25,11 @@
 	<!--新增编辑界面-->
 	<el-dialog :title="operation?'新增':'编辑'" width="40%" :visible.sync="editDialogVisible" :close-on-click-modal="false">
 		<el-form :model="dataForm" label-width="80px" :rules="dataFormRules" ref="dataForm" :size="size">
+		 <!-- v-if="dataForm.isPrimaryKey" -->
 <%
 	for(column in table.columns) {
-%>	
-			<el-form-item label="${column.description}" prop="${column.fieldName}"  v-if="dataForm.isPrimaryKey">
+%>
+			<el-form-item label="${column.description}" prop="${column.fieldName}"  >
 				<el-input v-model="dataForm.${column.fieldName}" auto-complete="off"></el-input>
 			</el-form-item>
 <%
