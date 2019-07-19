@@ -36,7 +36,7 @@ public class CompressUtils {
         // 目的压缩文件
         String generateFileName = compress.getAbsolutePath() + File.separator + "compress-" + file.getName() + "." + format;
 
-        String downloadFilePath = File.separator  + "compress_file"+ File.separator + file.getName() + "." + format;
+        String downloadFilePath = File.separator  + "compress_file"+ File.separator + "compress-" + file.getName() + "." + format;
 
         // 输入流 表示从一个源读取数据
         // 输出流 表示向一个目标写入数据
