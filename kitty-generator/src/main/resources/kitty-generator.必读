@@ -1,0 +1,4 @@
+/static/index.html
+   所以./static 改为 /static; 可按快捷键 Ctrl + Alt + L 格式化再改
+
+dokcer 启动备注

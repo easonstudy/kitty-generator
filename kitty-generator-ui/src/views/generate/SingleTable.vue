@@ -208,7 +208,11 @@ export default {
       this.generateLoading = true;
       axios.post(this.baseUrl + "/generateModels", this.generateModel).then(res => {
         res = res.data
+        debugger
         if (res.code == 200) {
+          // 获取文件路径
+          let { path } = res.data;
+          window.location.href = this.baseUrl + path;
           this.$message({ message: '代码生成完成', type: 'success' })
         } else {
           this.$message({ message: res.msg, type: "error" })

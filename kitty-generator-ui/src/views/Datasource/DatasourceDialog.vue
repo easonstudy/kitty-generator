@@ -80,6 +80,7 @@ export default {
 		// 测试连接
 		testConn: function () {
             this.testLoading = true
+            debugger
             axios.post(this.baseUrl + '/testConnection', this.form).then((res) => {
                 res = res.data
                 if(res.code == 200) {

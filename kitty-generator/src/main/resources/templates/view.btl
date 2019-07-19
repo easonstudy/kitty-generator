@@ -1,6 +1,10 @@
 <template>
-  <!--  kitty 样式: class="container" style="width:99%;margin-top:-25px;"
+  <!--  kitty 样式: class="container" => style="width:99%;margin-top:-25px;"
         首次需更新权限 sys:XXX:add  sys:XXX:delete sys:XXX:edit  sys:XXX:view 等字符串
+		新增编辑界面 里面字段ID 配置如下
+			<el-form-item label="id" prop="id"  v-if="false">
+				<el-input v-model="dataForm.id"  :disabled="true"auto-complete="off"></el-input>
+			</el-form-item>
   -->
   <div class="page-container" >
 	<!--工具栏-->
@@ -134,7 +138,7 @@ export default {
 						this.editLoading = true
 						let params = Object.assign({}, this.dataForm)
 						this.$api.${table.objectName}.save(params).then((res) => {
-							if(res.code == 200) {
+							if(res.code == 0) {
 								this.$message({ message: '操作成功', type: 'success' })
 							} else {
 								this.$message({message: '操作失败, ' + res.msg, type: 'error'})

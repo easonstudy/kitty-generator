@@ -1,4 +1,14 @@
-# kitty-generator-ui
+后台地址修改
+  /src/utils/global.js
+
+
+
+
+
+
+
+
+
 
 > kitty generator ui project
 

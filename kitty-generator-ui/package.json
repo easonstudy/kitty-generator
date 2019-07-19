@@ -1,7 +1,7 @@
 {
   "name": "kitty-generator-ui",
   "version": "1.0.0",
-  "description": "kitty generator ui project",
+  "description": "generator ui project",
   "author": "Louis",
   "private": true,
   "scripts": {
