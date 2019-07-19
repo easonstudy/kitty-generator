@@ -5,8 +5,8 @@
  */
 
 // 后台接口服务器地址
-//export const baseUrl = 'http://120.79.210.194:9000'
-export const baseUrl = 'http://localhost:9000' // /kitty-generator
+export const baseUrl = 'http://120.79.210.194:9000'
+//export const baseUrl = 'http://localhost:9000' // /kitty-generator
 
 export default {
     baseUrl
