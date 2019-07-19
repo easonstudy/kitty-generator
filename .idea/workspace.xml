@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f52cb75-4d69-460d-aa17-67bd9e3f9187" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/utils/CompressUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/utils/CompressUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator-ui/src/views/generate/SingleTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/kitty-generator-ui/src/views/generate/SingleTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/controller/GenerateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/controller/GenerateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/css/app.d9dd266a01765f1861a2093fb486c803.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/css/app.d9dd266a01765f1861a2093fb486c803.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/fonts/element-icons.6f0a763.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/fonts/fontawesome-webfont.674f50d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/fonts/fontawesome-webfont.af7ae50.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/fonts/fontawesome-webfont.b06871f.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/fonts/fontawesome-webfont.fee66e7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/img/fontawesome-webfont.912ec66.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/js/app.38f7e52ec8860e071e7f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/js/app.38f7e52ec8860e071e7f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/js/manifest.3ad1d5771e9b13dbdad2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/js/vendor.dbebf8326e32266c1f78.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitty-generator/src/main/resources/static/js/vendor.dbebf8326e32266c1f78.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/kitty-generator-pom/target/" />
     <ignored path="$PROJECT_DIR$/kitty-dbms/target/" />
@@ -38,7 +55,7 @@
           <entry key="btl" value="7" />
           <entry key="class" value="6" />
           <entry key="css" value="2" />
-          <entry key="html" value="11" />
+          <entry key="html" value="12" />
           <entry key="java" value="57" />
           <entry key="md" value="1" />
           <entry key="txt" value="2" />
@@ -52,7 +69,7 @@
           <entry key="CLASS" value="6" />
           <entry key="CSS" value="2" />
           <entry key="Dockerfile" value="1" />
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="12" />
           <entry key="JAVA" value="57" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="12" />
@@ -66,7 +83,7 @@
           <entry key="btl" value="105" />
           <entry key="css" value="14" />
           <entry key="html" value="19" />
-          <entry key="java" value="735" />
+          <entry key="java" value="752" />
           <entry key="txt" value="12" />
           <entry key="xml" value="52" />
           <entry key="yml" value="128" />
@@ -77,7 +94,7 @@
         <counts>
           <entry key="CSS" value="14" />
           <entry key="HTML" value="19" />
-          <entry key="JAVA" value="735" />
+          <entry key="JAVA" value="752" />
           <entry key="PLAIN_TEXT" value="222" />
           <entry key="XML" value="52" />
           <entry key="YAML" value="128" />
@@ -87,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/utils/CompressUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="219">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,13 +146,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/controller/GenerateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+            <state relative-caret-position="305">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -223,11 +240,11 @@
         <option value="$PROJECT_DIR$/kitty-generator/pom.xml" />
         <option value="$PROJECT_DIR$/kitty-generator/src/main/resources/rar/1.txt" />
         <option value="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/controller/GenerateController.java" />
         <option value="$PROJECT_DIR$/kitty-generator/src/main/resources/static/kitty-generator.必读" />
         <option value="$PROJECT_DIR$/kitty-generator/src/main/resources/kitty-generator.必读" />
-        <option value="$PROJECT_DIR$/kitty-generator/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/utils/CompressUtils.java" />
+        <option value="$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/controller/GenerateController.java" />
+        <option value="$PROJECT_DIR$/kitty-generator/src/main/resources/static/index.html" />
       </list>
     </option>
   </component>
@@ -355,7 +372,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563518366069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563519511518" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../inter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -448,12 +465,12 @@
       <workItem from="1562638150559" duration="2727000" />
       <workItem from="1563243328886" duration="8134000" />
       <workItem from="1563337957245" duration="1400000" />
-      <workItem from="1563503675899" duration="8302000" />
+      <workItem from="1563503675899" duration="9444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44303000" />
+    <option name="totallyTimeSpent" value="45445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -822,27 +839,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/utils/CompressUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="219">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/controller/GenerateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+        <state relative-caret-position="305">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/java/com/louis/kitty/generator/utils/CompressUtils.java">
+    <entry file="file://$PROJECT_DIR$/kitty-generator/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>

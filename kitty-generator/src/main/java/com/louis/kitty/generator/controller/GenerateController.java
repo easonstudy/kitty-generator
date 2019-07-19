@@ -72,7 +72,7 @@ public class GenerateController {
             // 压缩为rar
             String downloadFilePath = CompressUtils.generateFile(generateModel.getOutPutFolderPath(), "rar");
 
-            map.put("path", downloadFilePath);
+            map.put("path", "http://120.79.210.194/" + downloadFilePath);
         }
         return HttpResult.ok(map);
     }
