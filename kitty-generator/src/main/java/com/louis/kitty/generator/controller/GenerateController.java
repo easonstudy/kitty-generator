@@ -5,6 +5,8 @@ import com.louis.kitty.dbms.vo.ConnParam;
 import com.louis.kitty.generator.service.GenerateService;
 import com.louis.kitty.generator.utils.CompressUtils;
 import com.louis.kitty.generator.vo.GenerateModel;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +24,8 @@ import java.util.Map;
 @RestController
 @RequestMapping
 public class GenerateController {
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     GenerateService generatorService;
@@ -68,10 +72,10 @@ public class GenerateController {
         boolean bool = generatorService.generateModels(generateModel);
         Map<String, String> map = new HashMap<>();
         if(bool){
-            System.out.println("输出文件地址:" + generateModel.getOutPutFolderPath());
+           logger.info("输出文件地址:" + generateModel.getOutPutFolderPath());
             // 压缩为rar
             String downloadFilePath = CompressUtils.generateFile(generateModel.getOutPutFolderPath(), "rar");
-
+            logger.info("http://120.79.210.194/" + downloadFilePath);
             map.put("path", "http://120.79.210.194/" + downloadFilePath);
         }
         return HttpResult.ok(map);

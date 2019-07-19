@@ -212,7 +212,8 @@ export default {
         if (res.code == 200) {
           // 获取文件路径
           let { path } = res.data;
-          window.location.href = path;
+          //window.location.href = path;
+          window.open(path,'_blank','')
           this.$message({ message: '代码生成完成', type: 'success' })
         } else {
           this.$message({ message: res.msg, type: "error" })
