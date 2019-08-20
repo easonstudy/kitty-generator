@@ -71,12 +71,16 @@ public class GenerateController {
     public HttpResult generateModels(HttpServletResponse response, @RequestBody GenerateModel generateModel) throws Exception {
         boolean bool = generatorService.generateModels(generateModel);
         Map<String, String> map = new HashMap<>();
-        if(bool){
-           logger.info("输出文件地址:" + generateModel.getOutPutFolderPath());
-            // 压缩为rar
-            String downloadFilePath = CompressUtils.generateFile(generateModel.getOutPutFolderPath(), "rar");
-            logger.info("http://120.79.210.194/" + downloadFilePath);
-            map.put("path", "http://120.79.210.194/" + downloadFilePath);
+        try {
+            if(bool){
+               logger.info("输出文件地址:" + generateModel.getOutPutFolderPath());
+                // 压缩为rar
+                String downloadFilePath = CompressUtils.generateFile(generateModel.getOutPutFolderPath(), "rar");
+                logger.info("http://120.79.210.194" + downloadFilePath);
+                map.put("path", "http://120.79.210.194" + downloadFilePath);
+            }
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
         }
         return HttpResult.ok(map);
     }

@@ -3,6 +3,8 @@ package com.louis.kitty.generator.utils;
 
 import org.apache.tools.zip.ZipEntry;
 import org.apache.tools.zip.ZipOutputStream;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -13,6 +15,8 @@ import java.io.FileOutputStream;
  * 生成压缩文件 （zip，rar 格式）
  */
 public class CompressUtils {
+
+    private static Logger logger = LoggerFactory.getLogger(CompressUtils.class);
 
     /**
      * @param path   要压缩的文件路径
@@ -35,9 +39,11 @@ public class CompressUtils {
 
         // 目的压缩文件
         String generateFileName = compress.getAbsolutePath() + File.separator + "compress-" + file.getName() + "." + format;
+        logger.info("目标压缩文件位置:{}", generateFileName);
 
+        // 输出位置
         String downloadFilePath = File.separator  + "compress_file"+ File.separator + "compress-" + file.getName() + "." + format;
-
+        logger.info("目标下载文件地址:{}", downloadFilePath);
         // 输入流 表示从一个源读取数据
         // 输出流 表示向一个目标写入数据
 
@@ -49,8 +55,8 @@ public class CompressUtils {
 
         generateFile(zipOutputStream, file, "");
 
-        System.out.println("源文件位置       ：" + file.getAbsolutePath());
-        System.out.println("压缩文件生成位置 ：" + generateFileName);
+        logger.info("源文件位置       ：" + file.getAbsolutePath());
+        logger.info("压缩文件生成位置 ：" + generateFileName);
         // 关闭 输出流
         zipOutputStream.close();
 
