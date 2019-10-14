@@ -17,7 +17,7 @@ import ${table.servicePackageName}.${table.className}Service;
  * ---------------------------
  * ${table.description} (${table.className}ServiceImpl)         
  * ---------------------------
- * 作者：  kitty-generator
+ * 作者：  eason-generator
  * 时间：  ${strutil.formatDate(date(),'yyyy-MM-dd HH:mm:ss')}
  * 说明：  我是由代码生成器生生成的
  * ---------------------------

@@ -13,7 +13,7 @@ import com.louis.kitty.dbms.vo.ConnParam;
 public class GenerateModel {
 
 	private String outPutFolderPath;
-	private String basePackage = "com.louis.output";
+	private String basePackage = "com.louis.z";
 	private ConnParam connParam;
 	private List<TableModel> tableModels = new ArrayList<>();
 	

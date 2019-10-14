@@ -63,7 +63,7 @@
           size="small">
           <span>
             <el-form-item label="包名">
-              <el-input v-model="generateModel.basePackage" placeholder="如：com.louis.kitty">
+              <el-input v-model="generateModel.basePackage" placeholder="如：com.louis.z">
                 <el-button type="file" slot="append" icon="fa fa-folder fa-lg" @click="chooseBasePackage"></el-button>
               </el-input>
             </el-form-item>
@@ -183,7 +183,7 @@ export default {
         if (res.code == 200) {
           this.generateModel = res.data
           this.treeData = this.generateModel.tableModels
-          this.generateModel.outPutFolderPath = 'C:\\kitty'
+          this.generateModel.outPutFolderPath = '/data/radmon'
           this.disabledGenerateBtn = false
         } else {
           this.$message({ message: res.msg, type: "error" })
@@ -197,11 +197,11 @@ export default {
     },
     // 选择代码输出目录
     chooseBasePackage() {
-      this.generateModel.basePackage = 'com.louis.kitty'
+      this.generateModel.basePackage = 'com.louis.z'
     },
     // 选择代码输出目录
     chooseOutputFolder() {
-      this.generateModel.outPutFolderPath = '/data/kitty'
+      this.generateModel.outPutFolderPath = '/data/z'
     },
     // 生成代码
     generateCode() {

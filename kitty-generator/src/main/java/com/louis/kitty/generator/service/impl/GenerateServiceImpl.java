@@ -170,11 +170,8 @@ public class GenerateServiceImpl implements GenerateService {
 	 * @param groupTemplate
 	 * @param tableModel
 	 * @param templatePath
-	 * @param basePackage
-	 * @param subPackageName
 	 * @param outPutFolderPath
-	 * @throws  
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	private void generateModel(GroupTemplate groupTemplate, TableModel tableModel, String templatePath, String outPutFolderPath) throws Exception {
 		Template template = groupTemplate.getTemplate(templatePath);
